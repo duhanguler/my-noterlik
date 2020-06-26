@@ -1,3 +1,5 @@
 from django.shortcuts import render
 
-# Create your views here.
+
+def noter_list(request):
+    return render(request, 'noterler/noter_list.html', {})
